@@ -2,7 +2,9 @@ import { GraphQLClient } from 'graphql-request';
 import { useAuthStore } from '@/store/authStore'; 
 import { gql } from 'graphql-request'; 
 
-const API_URL = 'http://localhost:3000'; 
+const DEV_URL = 'http://localhost:3000'
+const PROD_URL = 'https://tact-app.onrender.com'
+const API_URL = PROD_URL; 
 const GQL_ENDPOINT = `${API_URL}/graphql`;
 const gqlClient = new GraphQLClient(GQL_ENDPOINT);
 
