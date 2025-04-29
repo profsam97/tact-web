@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+      "esModuleInterop": true, // Added for compatibility
+      "jsx": "react-jsx", // Added JSX support
       // ...
       "baseUrl": ".",
       "paths": {
