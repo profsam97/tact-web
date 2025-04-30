@@ -2,9 +2,9 @@
 
 This repository hosts the frontend application for the Tact Department Management system, built with React (Vite + TypeScript). It provides a user interface for managing a hierarchy of departments and sub-departments, including user authentication.
 
-#### please note first time, you access it and try to login, the request will
-#### be slow, this is because render free tier sleeps the server when there
-#### there is no interactivity 
+#### please note, the first time you access it and try to login, the request will
+#### be slow. This is because render free tier sleeps the server when 
+#### there is no activity 
 
 You can access the frontend here: [render](https://tact-web.vercel.app/)
 
